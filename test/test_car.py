@@ -86,16 +86,16 @@ def test_drive(create_car, get_miles_limit, start_engine_in_test, miles_to_drive
     (True, 1001, 'The miles limit has been exceeded', 3,),
     (False, 1500, 'Cannot drive. Engine is off.', 3,)
 ])
-def test_drive_several_starts(create_car, start_engine_in_test, miles_to_drive, expected_message, num_of_drive):
-    miles_limit_in_car = create_car.miles_limit
+def test_drive_several_starts(
+        create_car, get_miles_limit, start_engine_in_test, miles_to_drive, expected_message, num_of_drive):
     if start_engine_in_test is False:
         assert [create_car.drive(miles_to_drive) for _ in range(num_of_drive)][-1] == expected_message
-        assert create_car.miles_limit == miles_limit_in_car
+        assert create_car.miles_limit == get_miles_limit
         return
     create_car.start_engine()
-    if miles_to_drive * num_of_drive > miles_limit_in_car:
+    if miles_to_drive * num_of_drive > get_miles_limit:
         assert [create_car.drive(miles_to_drive) for _ in range(num_of_drive)][-1] == expected_message
         # assert create_car.miles_limit == miles_limit_in_car
         return
     assert [create_car.drive(miles_to_drive) for _ in range(num_of_drive)][-1] == expected_message
-    assert create_car.miles_limit == miles_limit_in_car - miles_to_drive * num_of_drive
+    assert create_car.miles_limit == get_miles_limit - miles_to_drive * num_of_drive
