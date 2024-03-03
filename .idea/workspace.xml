@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cac3eff-7f87-479b-a421-21e6075c662b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AQA_course_pytest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirments.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_car.py" afterDir="false" />
-    </list>
+    <list default="true" id="1cac3eff-7f87-479b-a421-21e6075c662b" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +40,8 @@
     "Python tests.Python tests for test_car.test_miles_limit.executor": "Run",
     "Python tests.Python tests for test_car.test_start_running_engine.executor": "Run",
     "Python tests.Python tests for test_car.test_start_stopped_engine.executor": "Run",
+    "Python tests.Python tests for test_car.test_stop_running_engine.executor": "Run",
+    "Python tests.Python tests for test_car.test_stop_stopped_engine.executor": "Run",
     "Python tests.Python tests in test_car.py.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -72,7 +60,7 @@
       <recent name="C:\Users\artem\PycharmProjects\AQA_course_pytest\test\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_car.test_start_stopped_engine">
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AQA_course_pytest" />
       <option name="ENV_FILES" value="" />
@@ -95,21 +83,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_car.test_drive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="AQA_course_pytest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_car.test_drive&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_car.test_drive_several_starts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AQA_course_pytest" />
       <option name="ENV_FILES" value="" />
@@ -122,21 +95,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_car.test_drive_several_starts&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_car.test_drive_several_starts11" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="AQA_course_pytest" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_car.test_drive_several_starts11&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -170,13 +128,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_car.test_stop_running_engine" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AQA_course_pytest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_car.test_stop_running_engine&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_car.test_stop_stopped_engine" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AQA_course_pytest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_car.test_stop_stopped_engine&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_car.test_stop_running_engine" />
+        <item itemvalue="Python tests.Python tests for test_car.test_stop_stopped_engine" />
         <item itemvalue="Python tests.Python tests for test_car.test_start_stopped_engine" />
         <item itemvalue="Python tests.Python tests for test_car.test_start_running_engine" />
         <item itemvalue="Python tests.Python tests for test_car.test_drive_several_starts" />
-        <item itemvalue="Python tests.Python tests for test_car.test_drive_several_starts11" />
-        <item itemvalue="Python tests.Python tests for test_car.test_drive" />
       </list>
     </recent_temporary>
   </component>
@@ -196,10 +184,21 @@
       <option name="presentableId" value="Default" />
       <updated>1709473923508</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709484209228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709484209228</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
