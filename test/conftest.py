@@ -23,9 +23,9 @@ def create_car(get_brand, get_model, get_miles_limit):
 
 
 @pytest.fixture(scope='function', autouse=False)
-def stop_engine_fixture(create_car):
-    create_car.stop_engine()
+def stop_engine_fixture(self):
+    self.stop_engine()
     yield
-    create_car.stop_engine()
+    self.stop_engine()
 
 
